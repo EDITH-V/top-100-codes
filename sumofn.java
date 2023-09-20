@@ -7,10 +7,11 @@ public class sumofn {
     }
     public static void main(String args[])
     {
-        Scanner sc = new Scanner(System.in);
-        int n = sc.nextInt();
-        sumofn obj = new sumofn();
-        obj.sum(n);
+        try (Scanner sc = new Scanner(System.in)) {
+            int n = sc.nextInt();
+            sumofn obj = new sumofn();
+            obj.sum(n);
+        }
 
     }
     

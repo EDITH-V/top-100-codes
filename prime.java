@@ -8,7 +8,7 @@ class prime{
             
             // if(num==2)
             //     System.out.println("prime");
-            for(int i=2;i<Math.sqrt(num);i++)
+            for(int i=2;i<=Math.sqrt(num);i++)
             {
                 if(num%i==0){
                     flag++;

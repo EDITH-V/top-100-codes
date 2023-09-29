@@ -5,12 +5,12 @@ public class oddoreven {
     {
         try (Scanner sc = new Scanner(System.in)) {
             int num = sc.nextInt();
-            if(num%2==0)
+            if(num%2!=0)
             {
-                System.out.println("Even");
+                System.out.println("odd");
             }
             else
-                System.out.println("Odd");
+                System.out.println("even");
         }
     }
 }
